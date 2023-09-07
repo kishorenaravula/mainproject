@@ -10,7 +10,7 @@ describe('firsttestsuite',()=>{
    
 //  })  
 
-  it('Verify the successful login test test test',()=>{
+  it('Verify the successful login',()=>{
     
     cy.fixture("applicationsecrets").then((data)=>{
     logintest.enterUserName(data.UN);
